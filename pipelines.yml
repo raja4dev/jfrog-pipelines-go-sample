@@ -34,7 +34,7 @@ pipelines:
           integrations:
             - name: {{ .Values.artifactory }}
 
-      # Publish the Go sample app binary to Artifactory. Docs at https://www.jfrog.com/confluence/display/JFROG/GoPublishBinary
+      # Publish the Go sample app binary to Artifactory. Docs at https://www.jfrog.com/confluence/display/JFROG/GoPublishBinary Test
       - name: publish_go_binary
         type: GoPublishBinary
         configuration:
