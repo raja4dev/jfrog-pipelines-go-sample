@@ -1,5 +1,5 @@
 # This config file is templatized so that it can be easily customized. Values can be provided with a values.yml at the root of this repository
-template: true   # required for local templates
+template: true   # required for local templates test
 valuesFilePath: ./values.yml
 
 resources:
